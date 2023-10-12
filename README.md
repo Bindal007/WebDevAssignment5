@@ -13,6 +13,7 @@ Welcome to the Dragon Ball Z Universe Website! This project is a demonstration o
 
 The project is organized with the following file and folder structure:
 project-folder/
+```
 ├── css/
 │   └── styles.css          (Compiled CSS file)
 ├── images/
@@ -29,7 +30,7 @@ project-folder/
 ├── styles.scss             (Main SASS file that imports others)
 ├── index.html
 └── profiles.html
-
+```
 ## Running the Project
 
 To run the project and see the HTML website with SASS styles, follow these steps:
