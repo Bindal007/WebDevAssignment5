@@ -1,0 +1,13 @@
+/* Custom Typography */
+$heading-font: 'Arial', sans-serif;
+$paragraph-font: 'Helvetica', sans-serif;
+
+h2 {
+  font-family: $heading-font;
+  font-size: 1.8em;
+}
+
+p {
+  font-family: $paragraph-font;
+  font-size: 1rem;
+}
