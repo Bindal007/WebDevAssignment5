@@ -1,0 +1,22 @@
+@mixin button($bg-color) {
+    background-color: $bg-color;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@mixin link-style($color) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #{$color};
+    font-weight: bold;
+}
+
+@mixin form-input-style() {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}

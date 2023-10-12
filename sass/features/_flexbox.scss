@@ -1,0 +1,9 @@
+/* Flexbox layout styles */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-item {
+    flex: 1;
+  }

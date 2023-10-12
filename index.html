@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Dragon Ball Z Universe - Home</title>
+</head>
+<body>
+    <header class="flex-container">
+        <h1>Dragon Ball Z Universe</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the Dragon Ball Z Universe</h2>
+        <img src="images/dragonball-wall-nobg.png" alt="Dragon Ball Z Image">
+    </section>
+
+    <section id="characters" class="grid-container">
+        <h2>Popular Characters</h2>
+        <table>
+            <tr>
+                <td><img src="images/goku_profile.png" alt="Goku"></td>
+                <td><img src="images/vegeta_profile.jpeg" alt="Vegeta"></td>
+                <td><img src="images/gohan_profile.png" alt="Gohan"></td>
+                <td><img src="images/piccolo_profile.png" alt="Piccolo"></td>
+                <td><img src="images/jiren_profile.png" alt="Jiren"></td>
+                <td><img src="images/frieza_profile.png" alt="Frieza"></td>
+            </tr>
+            <tr>
+                <td><a href="profiles.html#Goku">Goku</a></td>
+                <td><a href="profiles.html#Vegeta">Vegeta</a></td>
+                <td><a href="profiles.html#Gohan">Gohan</a></td>
+                <td><a href="profiles.html#Piccolo">Piccolo</a></td>
+                <td><a href="profiles.html#Jiren">Jiren</a></td>
+                <td><a href="profiles.html#Frieza">Frieza</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="episodes">
+        <div class="episodes-section flex-container">
+            <div class="episodes-left">
+                <h2>Top Episodes</h2>
+                <ol class="top-episodes">
+                    <li>The Battle of Namek</li>
+                    <li>Cell Saga</li>
+                    <li>Frieza Saga</li>
+                    <li>Android Saga</li>
+                    <li>Gods of Universe</li>
+                </ol>
+            </div>
+            <div class="vl"></div>
+            <div class="episodes-right">
+                <div class="vegeta-motivation">
+                    <h2>Here's some motivation from the only PRINCE!!</h2>
+                    <audio controls>
+                        <source src="audio/BREAK YOUR LIMIT! - Vegeta Motivational Speech.m4a" type="audio/x-m4a">
+                    </audio>
+                </div>
+                <img src="images/vegeta-rage.gif" height="200px" />
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="flex-container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? Contact us!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="submit" class="button-primary" value="Submit">
+
+                <menu>
+                    <ul>
+                        <li>Or, contact us via phone: <a href="tel:+1234567890">123-456-7890</a></li>
+                        <li>Email us at: <a href="mailto:contact@goku.com">contact@goku.com</a></li>
+                    </ul>
+                </menu>
+            </form>
+        </div>
+        <div class="contact-image">
+            <img src="images/goku_dancing.gif" height="500" />
+        </div>
+    </section>
+
+    <footer class="grid-container">
+        <p>&copy; 2023 Dragon Ball Z Universe</p>
+    </footer>
+</body>
+</html>

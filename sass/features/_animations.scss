@@ -1,0 +1,10 @@
+/* Transitions and Animations */
+$transition-speed: 0.3s;
+
+.button-primary, .button-secondary {
+  transition: background-color $transition-speed;
+}
+
+.button-primary:hover, .button-secondary:hover {
+  background-color: darken($primary-color, 10%);
+}
